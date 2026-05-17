@@ -1,0 +1,221 @@
+/* Characters.css */
+
+.charactersPage{
+
+    min-height: 100vh;
+
+    background-color: #272b33;
+
+    padding: 30px;
+}
+
+.titleCharacters{
+
+    text-align: center;
+
+    color: white;
+
+    margin-bottom: 40px;
+
+    font-size: 3rem;
+}
+
+/* CARDS */
+
+.containerCharacters{
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+}
+
+/* LINKS */
+
+.linkCard{
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: 0.3s;
+}
+
+.linkCard:hover{
+
+    transform: scale(1.03);
+}
+
+/* PAGINACIÓN */
+
+.pagination{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 50px;
+}
+
+.pagination button{
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #61dafb;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.pagination button:hover{
+
+    transform: scale(1.05);
+}
+
+.pagination button:disabled{
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+}
+
+.pagination h2{
+
+    color: white;
+}
+
+/* LOADING */
+
+.loadingContainer{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background-color: #272b33;
+
+    color: white;
+}
+
+.spinner{
+
+    width: 70px;
+
+    height: 70px;
+
+    border: 8px solid #ccc;
+
+    border-top: 8px solid #61dafb;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+
+    100%{
+
+        transform: rotate(360deg);
+    }
+}
+
+/* ERROR */
+
+.errorContainer{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background-color: #272b33;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.errorContainer h1{
+
+    font-size: 3rem;
+
+    color: #ff6b6b;
+}
+
+.errorContainer p{
+
+    font-size: 1.2rem;
+}
+
+.errorContainer button{
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #61dafb;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.errorContainer button:hover{
+
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+
+    .titleCharacters{
+
+        font-size: 2rem;
+    }
+
+    .pagination{
+
+        flex-direction: column;
+    }
+}
