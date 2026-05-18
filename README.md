@@ -44,7 +44,7 @@ git clone https://github.com/ExoDraed0n/Aplicacion-Web-Rick-and-Morty.git
 ### 2. Entrar a la carpeta del proyecto
 
 ```bash
-cd rick-and-morty-react
+cd Aplicacion Web Rick y Morty
 ```
 
 ---
