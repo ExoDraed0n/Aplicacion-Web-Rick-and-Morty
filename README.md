@@ -36,7 +36,7 @@ https://rickandmortyapi.com/
 ### 1. Clonar repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/ExoDraed0n/Aplicacion-Web-Rick-and-Morty.git
 ```
 
 ---
